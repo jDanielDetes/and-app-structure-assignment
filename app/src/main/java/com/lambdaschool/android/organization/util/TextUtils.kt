@@ -17,10 +17,10 @@ class TextUtils {
         }
 
         fun formatProductName (Name: String):String {
-            return  "$Name"
+            return  "$"
         }
         fun formatProductDescription (Descrip:String):String {
-            return "$Descrip"
+            return "$"
         }
     }
 }

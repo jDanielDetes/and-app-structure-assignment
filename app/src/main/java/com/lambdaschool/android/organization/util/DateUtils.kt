@@ -6,7 +6,7 @@ import java.util.*
 class DateUtils {
     companion object {
         fun formatDate(date: Date) : String {
-            val format = SimpleDateFormat("dd/MM/yyy")
+            val format = SimpleDateFormat("08/08/2019")
             return format.format(date)
         }
 

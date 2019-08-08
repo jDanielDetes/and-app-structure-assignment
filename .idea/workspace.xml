@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1d97271-fb2e-4198-9711-e366ec01c584" name="Default Changelist" comment="" />
+    <list default="true" id="b1d97271-fb2e-4198-9711-e366ec01c584" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/DateUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/util/DateUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/LambdaApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/application/LambdaApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/TextUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/util/TextUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/MainActivity.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/ui/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/util/TextUtils.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -40,12 +56,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/ui/MainActivity.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="326" />
-    <option name="y" value="44" />
+    <option name="x" value="392" />
+    <option name="y" value="52" />
     <option name="width" value="1337" />
     <option name="height" value="1087" />
   </component>
@@ -78,6 +95,20 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="organization" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="and-app-structure-assignment" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="organization" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="and-app-structure-assignment" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="organization" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="and-app-structure-assignment" type="1abcf292:AndroidViewProjectNode" />
@@ -194,7 +225,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="44" width="1337" height="1087" extended-state="0" />
+    <frame x="392" y="52" width="1337" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.26703212" />
       <window_info id="Structure" side_tool="true" />
@@ -221,10 +253,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/ui/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lambdaschool/android/organization/util/TextUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>

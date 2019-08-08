@@ -6,14 +6,21 @@ class TextUtils {
     companion object {
         // TODO: format the currency using NumberFormat.getCurrencyInstance - refer to the docs
         fun formatCurrency(price : Double) : String {
-            NumberFormat.getCurrencyInstance()
-            return ""
+
+            return NumberFormat.getCurrencyInstance().format(price)
         }
 
         // TODO: format the percent using NumberFormat.getPercentInstance - refer to the docs
         fun formatPercent(discount : Double) : String {
-            NumberFormat.getPercentInstance()
-            return ""
+
+            return "${NumberFormat.getPercentInstance().format(discount)}discount"
+        }
+
+        fun formatProductName (Name: String):String {
+            return  "$Name"
+        }
+        fun formatProductDescription (Descrip:String):String {
+            return "$Descrip"
         }
     }
 }

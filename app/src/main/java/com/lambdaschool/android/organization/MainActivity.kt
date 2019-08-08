@@ -17,5 +17,6 @@ class MainActivity : AppCompatActivity() {
         // todo: Instantiate a Product, set its characteristics, and
         // set each of the fields on the corresponding TextViews from the layout
         // use the appropriate Util methods for formatting the fields
+        //added more text for test
     }
 }
